@@ -1,0 +1,18 @@
+﻿create database ReparacionEquipos
+
+use ReparacionEquipos
+
+create table usuarios
+(
+	usuarioid int primary key,
+	nombreus varchar(50) not null,
+	correoelectronico varchar(100) not null,
+	telefono varchar(8) not null
+)
+
+create table tecnicos
+(
+	tecnicoid int primary key,
+	nombretec varchar(50) not null,
+	especialidad varchar(50) not null
+)
